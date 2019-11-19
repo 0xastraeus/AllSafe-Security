@@ -1,0 +1,212 @@
+ 
+body{
+	font: 12px;
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Nav */
+header #navbarSupportedContent li{
+	display: inline-block;
+}
+
+header #navbarSupportedContent li a {
+	text-transform: uppercase;
+	display: inline-block;
+  	color: white;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	float: right;
+  	font-size: 14px;
+  	margin-top: 10px;
+  	border-bottom: 3px solid transparent;
+}
+
+/* Setting on hover, changing to blue */
+header #navbarSupportedContent li a:hover {
+	border-bottom: 3px solid #004ff8;
+}
+
+/* Setting current page navbar a shade of blue */
+header #navbarSupportedContent li a.active{
+	border-bottom: 3px solid #004ff8;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+/* Mission statement section*/
+.mission-statement{
+	min-height: 100vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/mission-bg.jpg);
+	margin-bottom: 100px;
+	background-position: center;
+	text-align: left;
+	padding: 300px 0 200px;
+	color: #ffffff;
+	word-wrap: break-word;
+}
+
+.mission-statement h3{
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.mission-statement p{
+	margin: 1em 0 0;
+	font-size: 1.2em;
+
+}
+
+.col-sm-6{
+	background: rgba(0,0,0,0.4);
+  	padding: 12px 20px;
+}
+
+.card-img-top{
+    width: 255px;
+    height: 382px;
+}
+
+/* Footer */
+
+.footer{
+  background: #152F4F;
+  color:white;
+}
+
+.location a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.copyright{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.links li a{
+    color: white;
+    transition: color .2s;
+}
+
+&:hover{
+	text-decoration:none;
+    color:#4180CB;
+}  
+
+.about-company i{
+	font-size: 25px;
+}
+
+.about-company a{
+	color:white;
+    transition: color .2s;
+    &:hover{color:#4180CB}
+} 
+
+#about-page{
+    max-width: 100%;
+}
+
+.location i{
+	font-size: 18px;
+}
+
+.copyright p{
+  	border-top:1px solid rgba(255,255,255,.1); 
+}
+
+.why-us{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/about/about-bg.jpg);
+	min-height: 500px;
+	padding: 300px 0 200px;
+	color: #fff;
+}
+.why-us h3{
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.why-us h5{
+	margin: 1em 0 0;
+	font-size: 2em;
+
+}
+
+.why-us2{
+	background-color: #282828;
+	text-align: justify;
+	min-height: 300px;
+	color: #fff;
+}
+
+.pic{
+	float: right;
+}
+#about-page{
+	font-size: 20px;
+}
+#about-page span{
+	color: #337ab7;
+}
+#about-page h2{
+	color: #fff;
+
+}
+
+#about-page p{
+	color: #fff;
+	padding: 6px 12px;
+}
+
+/* Services */
+#services{
+    background: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.5)),url(../images/services/services-bg.jpg);
+    background-size: cover;
+    min-height: 900px;
+    color:#fff
+}
+.services p{
+    color: #fff;
+
+}
+.section-heading{
+    padding-top: 100px;
+    font-size: 50px;
+}
+.section-subheading{
+    padding-bottom:100px;
+}
+
+.service-heading{
+    padding-top: 15px;
+}
+
